@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta id="viewport" name="viewport" content=
+  "width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+  <title>Internet Ratio</title>
+  <link rel="stylesheet" href="stylesheets/iphone.css" type="text/css" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+        window.onload = function() {
+           setTimeout(function(){window.scrollTo(0, 1);}, 100);
+        }
+        
+        var state = 'none';
+
+        function showhide(layer_ref) {
+
+        if (state == 'block') { 
+        state = 'none'; 
+        } 
+        else { 
+        state = 'block'; 
+        } 
+        if (document.getElementById &&!document.all) { 
+        hza = document.getElementById(layer_ref); 
+        hza.style.display = state; 
+        } 
+        } 
+  //]]>
+  </script>
+
+   <script language="JavaScript">
+    VIH_BackColor = "palegreen";
+    VIH_ForeColor = "navy";
+    VIH_FontPix = "16";
+    VIH_DisplayFormat = "You are visiting from:<br>IP Address: %%IP%%<br>Host: %%HOST%%";
+    VIH_DisplayOnPage = "yes";
+  </script>
+
+</head>
+
+<body>
+  <div id="header">
+    <h1>Internet Radio</h1>
+  </div>
+  
+  <ul class="individual">
+    <li><a href="/cgi-bin/recent.pl?play=start">Start Play</a></li>
+    <li><a href="/cgi-bin/recent.pl?play=stop">Stop Play</a></li>
+  </ul>
+
+  <ul class="individual">
+    <li><a href="/cgi-bin/volume.pl?set=down">Volume Down</a></li>
+    <li><a href="/cgi-bin/volume.pl?set=up">Volume Up</a></li>
+  </ul>
+
+  <ul>
+    <li class="arrow"><a href="austria.html">Austria</a></li>
+    <li class="arrow"><a href="france.html">France</a></li>
+    <li class="arrow"><a href="funk.html">Funk Channels</a></li>
+    <li class="arrow"><a href="slovakia.html">Slovakia</a></li>
+    <li class="arrow"><a href="somafm.html">San Francisco</a></li>
+    <li class="arrow"><a href="world.html">World</a></li>
+  </ul>
+  
+  <ul class="individual">
+    <li><a href="/cgi-bin/load.pl">Load Internet</a></li>
+    <li><a href="/cgi-bin/recent.pl?play=random">Play Random</a></li>
+  </ul>
+
+
+  <p><a href="#" class="green button" onclick="showhide(&#39;optionpanel&#39;);">Show panel</a></p>
+  <div id="optionpanel" style="display: none">
+    <p>
+    <a class="white button" href="/cgi-bin/recent.pl?play=start">Start Playing</a> 
+    <a class="white button" href="/cgi-bin/recent.pl?play=stop">Stop Playing</a> 
+    <a class="white button" href="/cgi-bin/recent.pl?play=random">Random Play</a> 
+    <a class="white button" href="/cgi-bin/load.pl">Load Stations</a> 
+    <a href="#" class="red button" onclick="showhide(&#39;optionpanel&#39;);">Hide me</a>
+    </p>
+  </div>
+  
+  <ul class="data">
+    <li>
+      <p>http://www.internet-radio.com</p>
+    </li>
+  </ul>
+
+  <p>1997-2018 <a href="http://pacific-design.com">Pacific-Design.com</a></p>
+</body>
+</html>

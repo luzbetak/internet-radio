@@ -1,0 +1,7 @@
+#-------------------------------- Workdays -----------------------------------------#
+30 6 * * 1-5 mpc clear; mpc add http://mp3stream3.apasf.apa.at:8000; mpc volume 80; mpc play;
+0 9 * * * /usr/bin/mpc stop
+#--------------------------------- Weekend -----------------------------------------#
+0 10 * * 0,6 mpc clear; http://mfm-wr3.ice.infomaniak.ch:80/mfm-wr3-128; mpc volume 70; mpc play; 
+0 11 * * * /usr/bin/mpc stop
+

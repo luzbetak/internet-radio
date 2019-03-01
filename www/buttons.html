@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta id="viewport" name="viewport" content=
+  "width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+  <title>Buttons panel</title>
+  <link rel="stylesheet" href="stylesheets/iphone.css" type="text/css" />
+  <script language="javascript" type="text/javascript">
+//<![CDATA[
+
+        <!--
+        var state = 'none';
+
+        function showhide(layer_ref) {
+
+        if (state == 'block') { 
+        state = 'none'; 
+        } 
+        else { 
+        state = 'block'; 
+        } 
+        if (document.getElementById &&!document.all) { 
+        hza = document.getElementById(layer_ref); 
+        hza.style.display = state; 
+        } 
+        } 
+        //--> 
+  //]]>
+  </script>
+  <script type="text/javascript" charset="utf-8">
+//<![CDATA[
+                window.onload = function() {
+                  setTimeout(function(){window.scrollTo(0, 1);}, 100);
+                }
+  //]]>
+  </script>
+</head>
+
+<body>
+  <div id="header">
+    <h1>Buttons</h1><a href="index.html" id="backButton" name="backButton">Index</a>
+  </div>
+
+  <h1>Examples</h1>
+
+  <ul class="data">
+    <li>
+      <p>Button panel it&#39;s useful to display as an modal window. It is placed always at the
+      bottom of the screen and you can see 4 buttons example: white, red, blue (on hovers) and
+      black.</p>
+    </li>
+  </ul>
+
+  <p><a href="#" class="green button" onclick="showhide(&#39;optionpanel&#39;);">Show panel</a></p>
+
+  <p><strong>Best enjoyed on a real iPhone</strong><br />
+  This iPhone UI Framework kit is licenced under GNU Affero General Public License (<a href=
+  "http://www.gnu.org/licenses/agpl.html">GNU AGPL 3</a>)</p>
+
+  <div id="optionpanel" style="display: none">
+    <p>
+    <a class="white button" href="/cgi-bin/current.pl?play=start">Start Paying</a> 
+    <a class="white button" href="/cgi-bin/current.pl?play=stop">Stop Playing</a> 
+    <a class="black button" href="index.html">Back to index</a>
+    <a href="#" class="red button" onclick="showhide(&#39;optionpanel&#39;);">Hide me</a>
+    </p>
+  </div>
+</body>
+</html>
