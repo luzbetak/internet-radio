@@ -3,6 +3,11 @@ My Internet Radio for Raspberry Pi
 
 ### Install - Linux Music Player Daemon
 ```
+Centos
+https://github.com/kimduho/iot/wiki/CentOS-MPD-MPC-Music-Player-Server-and-Client-Installation
+```
+
+```
 #-- System Update/Update --#
 $ apt-get update
 $ apt-get update
