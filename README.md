@@ -56,4 +56,5 @@ $ free -h
 * http://www.internet-radio.com/stations/techno/page2
 
 ### References
+[https://www.musicpd.org/clients/](https://www.musicpd.org/clients/)
 [http://crunchbang.org/forums/viewtopic.php?pid=182574](http://crunchbang.org/forums/viewtopic.php?pid=182574)
